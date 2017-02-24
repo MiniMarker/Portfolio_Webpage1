@@ -1,0 +1,377 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+body { 
+    background: #0f0f0f;
+    margin: 0px;
+    height: 100%;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+
+/* Menubar*/
+#menu-bar ul, #menu-bar li, #menu-bar, #textcontainer  {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+#menu-bar {
+    font: 12px 'opensans', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+ul#menu {
+    min-height: 48px;
+    width: auto;
+    text-align: center;
+}
+ul#menu li {
+    
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+ul#menu li a {
+
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: rgb(250,250,250);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#search{
+    position: absolute;
+    top: 3px;
+    height: 15px;
+}
+
+
+/* Header */
+#header {
+    width: 100%;
+    position: relative;
+    height: 900px;
+}
+#headerpicture {
+    width: 100%;
+    height: 100%;
+}
+#textcontainer{
+    position: absolute;
+    top: 200px;
+    min-height: 48px;
+    width: 100%;
+    text-align: center;
+}
+#header-title {
+    text-align: center;
+    color: rgb(255,140,0);
+    font: 3em 'opensans', sans-serif;
+    font-size: 5em;
+    letter-spacing: 2px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 1000px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+#header-body {
+    color: rgb(230, 230, 230);
+    font-family: regular;
+    width: 1000px;
+    margin: auto;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 150%;
+    font-size: 1.3em;
+}
+hr { 
+    border: solid lightgray;
+    opacity: 0.2;
+    border-width: 1px; 
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;   
+}
+#header-button{
+    position: relative;
+    height: 70px;
+    top: 120px;
+}
+
+
+/* Social profile icons */
+.socialicons{
+    margin: auto;
+    height: 35px;
+    width: 700px;
+}
+#facebook-bw, #facebook-color, #messenger-bw, #messenger-color, #instagram-color, #instagram-bw, #linkedin-color, #linkedin-bw, #twitter-bw, #twitter-color, #github-color, #github-bw, #mail-bw, #mail-color {
+    position: absolute;
+    height: 35px;
+    opacity: 1;
+}
+#facebook-bw, #facebook-color{
+    left: 31.3%;
+}
+#messenger-bw, #messenger-color{
+    left: 38.3%;
+}
+#instagram-color, #instagram-bw {
+    left: 45.3%;
+}
+#linkedin-bw, #linkedin-color{
+    left: 52.3%;
+}
+#twitter-bw, #twitter-color {
+    left: 59.3%;
+}
+#mail-bw, #mail-color{
+    left: 66.3%;
+    
+}
+#facebook-bw:hover, #messenger-bw:hover, #instagram-bw:hover, #linkedin-bw:hover, #twitter-bw:hover, #mail-bw:hover {
+    opacity: 0;
+}
+
+
+/* About */
+#about{
+    background-color: rgb(0,139,139);
+    height: 600px;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+#left-side, #right-side{
+    position: absolute;
+    height: 700px;
+    align-content: center;
+}
+#left-side{
+    width: 40%;
+    left: 10%;
+    height: auto;
+}
+#right-side{
+    width: 40%;
+    left: 50%;
+    height: auto;
+}
+.miniature{
+    position: absolute;
+    height: 200px;
+    top: 370px;
+}
+.profile{
+    position: absolute;
+    height: 270px;
+    top: 160px;   
+}
+#big2{
+    left: 45%;
+}
+#big3{
+    left: 150px;
+    top: 240px;
+}
+
+#about-name{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 2em;
+    top: 480px;
+    left: 19.2%;
+    color: rgb(250,250,250);
+}
+.text-title{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgb(255,140,0);
+}
+.text-body{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: rgb(50,50,50);
+}
+#about-text{
+    color: rgb(250,250,250);
+}
+#text-title-margin{
+    margin-top: 90px;
+}
+#download-button{
+    position: absolute;
+    height: 120px;
+    left: 350px;
+    bottom: 28px;
+}
+
+
+/* Resume */
+#resume{
+    background-color: rgb(250,250,250);
+    height: 1080px;
+}
+.resume-title{
+    font-size: 2em;
+    color: rgb(0,139,139);
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.year{
+    font-size: 1.4em;
+    color: rgb(110,110,110);
+}
+.logo{
+    position: absolute;
+    height: 100px;
+    right: 120px;
+}
+.meny-logo{
+    position: absolute;
+    height: 100px;
+    right: 90px;
+    width: 150px;
+    height: auto;
+}
+#westerdals-logo{
+    top: 178px;
+}
+#skien-logo{
+    top: 420px;
+}
+#meny-logo1{
+    top: 209px;
+}
+#meny-logo2{
+    top: 454px;
+}
+#meny-logo3{
+    top: 900px;
+}
+#artbn-logo{
+    top: 625px;
+    right: 120px;
+}
+
+
+/* Projects */
+#projects{
+    height: 700px;
+    background-color: rgb(255,140,0);
+}
+.project-title{
+    padding-top: 90px;
+    font-size: 2em;
+    color: rgb(250,250,250);
+    margin-bottom: 40px;
+}
+.project-row{
+    margin: auto;
+    width: 100%;
+    height: 480px;
+}
+.frame{
+    position: absolute;
+    height: 380px;
+    width: 280px;
+    top: 2766px;
+    background-color: rgb(250,250,250);
+}
+.frame-picture{
+    width: 280px;
+    height: 280px;
+    background-color: rgb(0,139,139);
+}
+.frame-title{
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgb(0,139,139);
+    text-align: center;
+    top: 9%;
+}
+.more{
+    position: absolute;
+    height: 350px;
+    width: 280px;
+    top: 2766px;
+    opacity: 0;
+}
+.more:hover{
+    opacity: 1;
+}
+#mid-left, #mid-left-black{
+    left: 30%;
+}
+#mid-right, #mid-right-black{
+    left: 50%;
+}
+
+#right{
+    right: 10%;
+}
+
+
+/* Contact */
+#contact{
+    height: 680px;
+    background-color: rgb(230,230,230);
+}
+#map{
+    position: absolute;
+    margin-top: 90px;
+    left: 10%;
+}
+input:focus {
+    background-color: rgb(255,140,0);
+}
+#input-form{
+    width: 450px;
+}
+
+
+/* Footer */
+#footer{
+    height: 290px;
+    background-color: rgb(23,23,23);
+}
+#footer-button{
+    position: relative;
+    height: 70px;
+    top: -35px;
+    left: 47.4%;
+}
+#footer-text{
+    font-size: 1.2em;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(250,250,250);
+    text-align: center;
+}
