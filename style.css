@@ -146,14 +146,14 @@ hr {
 #linkedin-bw, #linkedin-color{
     left: 52.3%;
 }
-#twitter-bw, #twitter-color {
+#github-bw, #github-color {
     left: 59.3%;
 }
 #mail-bw, #mail-color{
     left: 66.3%;
     
 }
-#facebook-bw:hover, #messenger-bw:hover, #instagram-bw:hover, #linkedin-bw:hover, #twitter-bw:hover, #mail-bw:hover {
+#facebook-bw:hover, #messenger-bw:hover, #instagram-bw:hover, #linkedin-bw:hover, #github-bw:hover, #mail-bw:hover {
     opacity: 0;
 }
 
