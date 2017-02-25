@@ -73,7 +73,7 @@ ul#menu li a {
 #header {
     width: 100%;
     position: relative;
-    height: 900px;
+    height: 100vh;
 }
 #headerpicture {
     width: 100%;
