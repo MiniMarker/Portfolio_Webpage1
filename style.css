@@ -98,7 +98,7 @@ ul#menu li a:hover{
 }
 #textcontainer{
     position: absolute;
-    top: 30%;
+    top: 25%;
     min-height: 48px;
     width: 100%;
     text-align: center;
@@ -191,7 +191,7 @@ hr {
     align-content: center;
 }
 #left-side{
-    width: 40%;
+    width: 37%;
     left: 10%;
     height: auto;
 }
@@ -277,16 +277,16 @@ hr {
     top: 420px;
 }
 #meny-logo1{
-    top: 219px;
+    top: 210px;
 }
 #meny-logo2{
-    top: 474px;
+    top: 459px;
 }
 #meny-logo3{
-    top: 940px;
+    top: 904px;
 }
 #artbn-logo{
-    top: 655px;
+    top: 625px;
     right: 120px;
 }
 
