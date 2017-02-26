@@ -67,6 +67,7 @@ ul#menu li a:hover{
     position: absolute;
     top: 9px;
     height: 15px;
+    padding-right: 0px;
 }
 
 
@@ -191,8 +192,9 @@ hr {
 }
 .profile{
     position: absolute;
-    height: 270px;
-    top: 160px;   
+    height: 400px;
+    top: 90px;
+    left: 10%;
 }
 #big2{
     left: 45%;
@@ -317,7 +319,6 @@ hr {
 .frame-picture{
     width: 280px;
     height: 280px;
-    background-color: rgb(0,139,139);
 }
 .frame-title{
     position: relative;
@@ -350,7 +351,7 @@ hr {
     left: 10%;
 }
 input:focus {
-    background-color: rgb(255,140,0);
+    background-color: rgb(220,220,220);
 }
 #input-form{
     width: 450px;
