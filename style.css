@@ -178,7 +178,7 @@ hr {
 /* About */
 #about{
     background-color: rgb(0,139,139);
-    height: 600px;
+    height: 640px;
 }
 .content{
     width: 80%;
@@ -215,6 +215,11 @@ hr {
     color: rgb(250,250,250);
 }
 .text-title{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(255,140,0);
+}
+.text-undertitle{
     font-size: 1.5em;
     margin-bottom: 20px;
     color: rgb(255,140,0);
@@ -241,7 +246,7 @@ hr {
 /* Resume */
 #resume{
     background-color: rgb(250,250,250);
-    height: 1080px;
+    height: 1140px;
 }
 .resume-title{
     font-size: 2em;
@@ -272,19 +277,82 @@ hr {
     top: 420px;
 }
 #meny-logo1{
-    top: 209px;
+    top: 219px;
 }
 #meny-logo2{
-    top: 454px;
+    top: 474px;
 }
 #meny-logo3{
-    top: 900px;
+    top: 940px;
 }
 #artbn-logo{
-    top: 625px;
+    top: 655px;
     right: 120px;
 }
 
+#securitas-logo{
+    width: 120px;
+    height: auto;
+    top: 734px;
+    right: 15%;
+}
+
+
+/* Skills */
+#skills{
+    background-color: rgb(40,40,40);
+    height: 800px;
+}
+#skills-title{
+    padding-top: 90px;
+}
+.bars {
+    width: 97%;
+    float: left; 
+}
+.bars .skills {
+    margin-top: 36px;
+    list-style: none;
+    left: 0px;
+}
+.bars li {
+    position: relative;
+  	margin-bottom: 60px;
+  	background: rgb(250,250,250);
+  	height: 42px;
+  	border-radius: 3px;
+    left: -38px;
+}
+.bars li p {
+    color: rgb(250,250,250);
+    position: relative;
+	top: -36px;
+}
+.bar-fill {
+    position: absolute;
+    margin: 0;
+    background: rgb(0,139,139);
+    display: inline-block;
+  	height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+}
+
+.html {
+  	width: 90%;
+}
+.css {
+  	width: 55%;
+}
+.java {
+  	width: 45%;
+}
+.mysql {
+  	width: 85%;
+}
+.photoshop {
+  	width: 60%;
+}
 
 /* Projects */
 #projects{
@@ -363,7 +431,7 @@ input:focus {
 /* Footer */
 #footer{
     height: 290px;
-    background-color: rgb(23,23,23);
+    background-color: rgb(40,40,40);
 }
 #footer-button{
     position: relative;

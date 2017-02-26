@@ -8,7 +8,7 @@
     font-family: 'open_sansregular';
 }
 
-.text-title, .frame-title{
+.text-title, .text-undertitle, .frame-title{
     font-family: 'open_sanssemibold';
 }
 .year{
