@@ -69,7 +69,22 @@ ul#menu li a:hover{
     height: 15px;
     padding-right: 0px;
 }
+#search:focus #search-box{
+    opacity: 1;
+}
+#search-box {
+    position: absolute;
+    z-index: 1;
+    width: 170px;
+    left: 62.6%;
+    top: 3.3%;
+    height: 34px;
+    opacity: 0;
+}
 
+#input-form2{
+    width: 200px;
+}
 
 /* Header */
 #header {
@@ -185,25 +200,12 @@ hr {
     left: 50%;
     height: auto;
 }
-.miniature{
-    position: absolute;
-    height: 200px;
-    top: 370px;
-}
 .profile{
     position: absolute;
-    height: 400px;
-    top: 90px;
+    height: 405px;
+    top: 98px;
     left: 10%;
 }
-#big2{
-    left: 45%;
-}
-#big3{
-    left: 150px;
-    top: 240px;
-}
-
 #about-name{
     position: absolute;
     font-family: sans-serif;
@@ -376,3 +378,4 @@ input:focus {
     color: rgb(250,250,250);
     text-align: center;
 }
+
