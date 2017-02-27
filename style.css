@@ -178,7 +178,7 @@ hr {
 /* About */
 #about{
     background-color: rgb(0,139,139);
-    height: 640px;
+    height: 615px;
 }
 .content{
     width: 80%;
@@ -246,7 +246,7 @@ hr {
 /* Resume */
 #resume{
     background-color: rgb(250,250,250);
-    height: 1140px;
+    height: 1060px;
 }
 .resume-title{
     font-size: 2em;
@@ -301,7 +301,7 @@ hr {
 /* Skills */
 #skills{
     background-color: rgb(40,40,40);
-    height: 800px;
+    height: 750px;
 }
 #skills-title{
     padding-top: 90px;
@@ -356,7 +356,7 @@ hr {
 
 /* Projects */
 #projects{
-    height: 650px;
+    height: 611px;
     background-color: rgb(255,140,0);
 }
 .project-title{
@@ -411,17 +411,13 @@ hr {
 
 /* Contact */
 #contact{
-    height: 750px;
+    height: 760px;
     background-color: rgb(230,230,230);
 }
 #map{
     position: absolute;
     margin-top: 180px;
 }
-/* input:focus {
-    background-color: rgb(220,220,220);
-} */
-
 .input-bar[type=text], .input-bar[type=email], select {
     position: relative;
     left: -40px;
@@ -459,8 +455,7 @@ hr {
     background-color: rgb(255,140,0);
     border: 0;
     color: rgb(100,100,100);
-    font-size: 1.2em;
-    
+    font-size: 1.2em; 
 }
 
 /* Footer */
@@ -474,11 +469,14 @@ hr {
     top: -35px;
     left: 47.4%;
 }
-#footer-text{
+#footer-body{
     font-size: 1.2em;
     padding-top: 15px;
     margin-bottom: 20px;
-    color: rgb(250,250,250);
+    color: rgb(90,90,90);
     text-align: center;
+}
+#footer-name{
+    color: rgb(150,150,150)
 }
 
