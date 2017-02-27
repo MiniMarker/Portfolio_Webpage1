@@ -75,11 +75,11 @@ ul#menu li a:hover{
 #search-box {
     position: absolute;
     z-index: 1;
-    width: 170px;
+    width: 246px;
     left: 62.6%;
     top: 3.3%;
     height: 34px;
-    opacity: 0;
+    opacity: 1;
 }
 
 #input-form2{
@@ -191,13 +191,13 @@ hr {
     align-content: center;
 }
 #left-side{
-    width: 37%;
+    width: 38.5%;
     left: 10%;
     height: auto;
 }
 #right-side{
-    width: 40%;
-    left: 50%;
+    width: 38.5%;
+    left: 51.5%;
     height: auto;
 }
 .profile{
@@ -307,7 +307,7 @@ hr {
     padding-top: 90px;
 }
 .bars {
-    width: 97%;
+    width: 106%;
     float: left; 
 }
 .bars .skills {
@@ -368,7 +368,6 @@ hr {
 .project-row{
     display: flex;
     justify-content: space-between;
-    margin: auto;
     width: 100%;
     height: 480px;
 }
@@ -401,7 +400,7 @@ hr {
 .more{
     position: relative;
     height: 350px;
-    width: 280px;
+    width: 250px;
     top: -350px;
     opacity: 0;
 }
@@ -412,21 +411,57 @@ hr {
 
 /* Contact */
 #contact{
-    height: 680px;
+    height: 750px;
     background-color: rgb(230,230,230);
 }
 #map{
     position: absolute;
-    margin-top: 90px;
-    left: 10%;
+    margin-top: 180px;
 }
-input:focus {
+/* input:focus {
     background-color: rgb(220,220,220);
+} */
+
+.input-bar[type=text], .input-bar[type=email], select {
+    position: relative;
+    left: -40px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 40px;
+    display: inline-block;
+    border: 0px;
+    box-sizing: border-box;
+    background-color: rgb(250,250,250);
+    font-size: 1.2em;
 }
-#input-form{
-    width: 450px;
+.input-text{
+    position: relative;
+    left: -10px;
+    width: 100%;
+    height: 300px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border: 0px;
+    background-color: rgb(250,250,250);
+    display: inline-block;
+    box-sizing: border-box;
+    resize: none;
+}
+#message-text{
+    height: 200px;
 }
 
+.send-button{
+    position: relative;
+    top: 5px;
+    width: 20%;
+    height: 43px;
+    background-color: rgb(255,140,0);
+    border: 0;
+    color: rgb(100,100,100);
+    font-size: 1.2em;
+    
+}
 
 /* Footer */
 #footer{

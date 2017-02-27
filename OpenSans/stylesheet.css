@@ -4,7 +4,7 @@
     font-family: 'open_sansbold';
 }
 
-#header-body, #nav-bar, .text-body, #footer-text{
+#header-body, #nav-bar, .text-body, #footer-text, .input-bar[type=text], .input-bar[type=email], .send-button, .input-text{
     font-family: 'open_sansregular';
 }
 
