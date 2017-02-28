@@ -417,6 +417,7 @@ hr {
 #map{
     position: absolute;
     margin-top: 180px;
+    pointer-events: stroke;
 }
 .input-bar[type=text], .input-bar[type=email], select {
     position: relative;
@@ -479,4 +480,6 @@ hr {
 #footer-name{
     color: rgb(150,150,150)
 }
+
+
 
