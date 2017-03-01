@@ -302,9 +302,9 @@ hr {
 
 #download-button {
     position: absolute;
-    height: 120px;
+    height: 100px;
     left: 350px;
-    bottom: 28px;
+    bottom: 35px;
 }
 
 
@@ -566,7 +566,7 @@ select {
 /* Footer */
 
 #footer {
-    height: 290px;
+    height: 275px;
     background-color: rgb(40, 40, 40);
 }
 
