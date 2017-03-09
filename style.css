@@ -225,6 +225,15 @@ hr {
     opacity: 0;
 }
 
+#facebook-bw,
+#messenger-bw,
+#instagram-bw,
+#linkedin-bw,
+#github-bw,
+#mail-bw {
+    transition: opacity 0.25s;
+}
+
 
 /* About */
 
@@ -498,6 +507,7 @@ hr {
     width: 250px;
     top: -350px;
     opacity: 0;
+    transition: opacity 0.25s;
 }
 
 .more:hover {
@@ -560,6 +570,10 @@ select {
     border: 0;
     color: rgb(100, 100, 100);
     font-size: 1.2em;
+    transition: background-color 0.25s;
+}
+.send-button:hover {
+    background-color: rgb(242, 133, 0);
 }
 
 
