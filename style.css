@@ -576,6 +576,7 @@ select {
     font-size: 1.2em;
     transition: background-color 0.25s;
 }
+
 .send-button:hover {
     background-color: rgb(242, 133, 0);
 }
@@ -604,5 +605,5 @@ select {
 }
 
 #footer-name {
-    color: rgb(150, 150, 150)
+    color: rgb(150, 150, 150);
 }
