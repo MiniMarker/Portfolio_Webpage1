@@ -79,6 +79,7 @@ ul#menu li a:hover {
     top: 9px;
     height: 15px;
     padding-right: 0px;
+    outline: none;
 }
 
 #search:focus #search-box {
@@ -575,10 +576,14 @@ select {
     color: rgb(100, 100, 100);
     font-size: 1.2em;
     transition: background-color 0.25s;
+    outline: none;
 }
 
 .send-button:hover {
     background-color: rgb(242, 133, 0);
+}
+.send-button:focus {
+    outline:0;
 }
 
 
