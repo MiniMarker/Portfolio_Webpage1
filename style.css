@@ -67,6 +67,7 @@ ul#menu li a {
     text-align: left;
     color: rgb(250, 250, 250);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    transition: color 0.25s;
 }
 
 ul#menu li a:hover {
@@ -541,6 +542,7 @@ select {
     box-sizing: border-box;
     background-color: rgb(250, 250, 250);
     font-size: 1.2em;
+    outline: none;
 }
 
 .input-text {
@@ -555,6 +557,8 @@ select {
     display: inline-block;
     box-sizing: border-box;
     resize: none;
+    font-size: 1.2em;
+    outline: none;
 }
 
 #message-text {
