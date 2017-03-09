@@ -8,8 +8,8 @@
         $('html,body').animate({scrollTop: aTag.offset().top},'slow');
     }
 
-    $("#link").click(function() {
-        scrollToAnchor('id3');
+    $("#om").click(function() {
+        scrollToAnchor('about');
     });
 
 
