@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: green;
+    text-decoration: none;
+    padding: 3px; 
+    display: block;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    ul li a {
+        padding-left: 30px;
+        background: url(email-icon.png) left center no-repeat;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    ul li a:before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666666;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    ul li a:after {
+        content: " (" attr(data-email) ")";
+        font-size: 12px;
+        font-style: italic;
+        color: #666666;
+    }
+}
+
+#under{
+    background-color: red;
+    
+}
+#over{
+    background-color: blue;
+    width: 200px;
+}
+#over2{
+    position: absolute;
+    left: 300px;
+}
